@@ -1,59 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stock Profile & Loss Calculator</title>
-    
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Stock Profile & Loss Calculator</h1>
-    </header>
-    <main>
-      <label class="input-label" for="initial-price">
-        Intial Price
-        <input
-          class="input"
-          type="text"
-          id="initial-price"
-          placeholder="Enter Initial Price Here"
-      /></label>
-      <label class="input-label" for="stocks-quantity">
-        Quantity of Stocks
-        <input
-          class="input"
-          type="text"
-          id="stocks-quantity"
-          placeholder="Enter the Number of Stocks bought"
-        />
-      </label>
-      <label class="input-label" for="current-price"
-        >Current Price
-        <input
-          class="input"
-          type="text"
-          id="current-price"
-          placeholder="Enter the Current Price of the stocks"
-      /></label>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Mark 14-Stocks</title>
+</head>
+<body>
+  <h1>Mark 14-Stocks</h1>
+  <main>
+    <label for="">
+      Initial Price: <input type="text" placeholder="Enter Initial Price Here"/>
+    </label>
 
-      <button id="submit-btn" class="btn-check">Tell Me!!</button>
+    <label for="stocks-quality">
+      Quantity of Stocks
+      <input type="text"
+      id="stocks-quality"
+      placeholder="Enter the number of the stocks bought"/>
+    </label>
 
-      <div id="output-box" class="output"></div>
-    </main>
-    <footer>
-      <p>© | 2021 | Vikas Koleti</p>
-      <ul class="list-unordered inline-list">
-        <li>
-          <a class="links" href="https://github.com/vikas-koleti/" target="_blank">
-            <img src="images/github.svg" alt="github" />
-          </a>
-        </li>
-        
-      </ul>
-    </footer>
-    <script src="main.js"></script>
-  </body>
+    <label for="current price">
+      Current price
+      <input type = "text"
+      id = "current-price"
+      placeholder="Enter the current Price of the stocks"
+
+    </label>
+
+    <button>Tell Me!!</button>
+
+
+
+
+
+  </main>
+</body>
 </html>
