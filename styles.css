@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+:root {
+  --primary-color: #7c3aed;
+}
+
+
+
 body {
-     text-align: center;
-
-
+  font-family: 'Roboto', sans-serif;
+	text-align: center;
+  color:red;
 }
 
 label {
-  display: block;
-  padding-bottom: 1rem;
+	display: block;
+  color: blue;
+	padding-bottom: 1rem;
 }
+
