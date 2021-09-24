@@ -27,7 +27,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
 		var profit = (current - initial) * quantity;
 		var profitPercentage = ((profit / initial) * 100)/ quantity;
 
-		showOutput(`Hey the profit is ${profit} and the percent is ${profitPercentage}%`);
+		showOutput(`Hey the profit is ${profit} and the profit percent is ${profitPercentage}%`);
 	} else {
 		showOutput(`No pain no gain and no gain no pain`);
 	}
