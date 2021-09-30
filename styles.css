@@ -11,7 +11,7 @@
 
     height: 2rem;
     width:auto;
-    background-color: blue;
+    background-color: rgb(52, 52, 177);
     text-align: center;
     padding: 1.5rem;
     margin:inherit;
@@ -41,7 +41,7 @@ label {
 
 button {
 	border: none;
-	background-color: blue;
+	background-color: rgb(52, 52, 177);
 	color: white;
 	font-weight: 700;
 	padding: 1.2rem;
@@ -61,7 +61,7 @@ footer{
     width: 100%;
     display: block;
     height: 1rem;
-    background-color:blue;
+    background-color:rgb(52, 52, 177);
     text-align: center;
 	color: white;
     padding: 2rem;
